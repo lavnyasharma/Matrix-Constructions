@@ -1,0 +1,130 @@
+.construction .parent-items {
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card-parent {
+    perspective: 1000px;
+}
+
+.rotatory-card {
+    transform-style: preserve-3d;
+    transition: 0.5s cubic-bezier(0.2, 0.85, 0.4, 1.275);
+}
+
+.card-parent:hover .rotatory-card {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    height: 100%;
+    padding: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background-color: var(--bg-color);
+    transform: rotateY(0deg);
+}
+
+.card-front .title-md {
+    font-size: 24px;
+}
+
+.card-front-icon {
+    padding: 18px;
+    border-radius: 50%;
+    border: 1px solid #747474;
+    font-size: 28px;
+}
+
+.card-back {
+    background-color: var(--primary-color);
+    transform: rotateY(180deg);
+    position: absolute;
+    inset: 0;
+    color: var(--secondary-color);
+}
+
+.card-back .title-sm {
+    text-transform: uppercase;
+}/* Container for the carousel */
+.carousel-parent{
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: none;
+}
+
+.carousel-parent::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+.carousel-container {
+  display: grid;
+  grid-auto-flow: column; /* Arrange items horizontally */
+  gap: 16px;
+  grid-auto-columns: auto; /* Control the width of each carousel item */
+  transition: transform 0.3s ease;
+  }
+  
+  
+  /* Individual card */
+  .card-parent {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 400px; /* Adjust the width as needed */
+    perspective: 1000px;
+  }
+  
+  /* Rotatory card */
+  .rotatory-card {
+    transform-style: preserve-3d;
+    transition: 0.5s;
+  }
+  
+  /* Card front and back */
+  .card-front,
+  .card-back {
+    height: 100%;
+    padding: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    background-color: var(--bg-color);
+  }
+  
+  .card-back {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    position: absolute;
+    inset: 0;
+    transform: rotateY(180deg);
+  }
+  
+  .card-front .title-md {
+    font-size: 24px;
+  }
+  
+  .card-front-icon {
+    padding: 18px;
+    border-radius: 50%;
+    border: 1px solid #747474;
+    font-size: 28px;
+  }
+  
+  .card-back .title-sm {
+    text-transform: uppercase;
+  }
+  

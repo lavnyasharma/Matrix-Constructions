@@ -1,0 +1,187 @@
+/* General Styles */
+.about {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 0 20px;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.about .hero {
+    background-image: url(../../Assets/Images/About-Hero.webp);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.about .hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about .hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    color: #555;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* SubHero Section */
+.subhero {
+    padding: 60px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.subhero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.subhero p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #777;
+    text-align: justify;
+}
+
+/* Parallax */
+.about .parallax {
+    background-image: url(../../Assets/Images/About-Parallax.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 40px;
+}
+
+/* Call to Action Form */
+.call-to-action-form {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.call-to-action-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.call-to-action-form p {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.call-to-action-form button {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .about .hero {
+        height: 250px;
+    }
+
+    .about .hero h1 {
+        font-size: 2rem;
+    }
+
+    .about .hero p {
+        font-size: 1rem;
+        margin: 10px auto;
+    }
+
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section p {
+        font-size: 1rem;
+    }
+
+    .subhero h2 {
+        font-size: 1.8rem;
+    }
+
+    .subhero p {
+        font-size: 1rem;
+    }
+
+    .call-to-action-form h2 {
+        font-size: 1.8rem;
+    }
+
+    .call-to-action-form p {
+        font-size: 1rem;
+    }
+
+    .call-to-action-form button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .about .hero p {
+        font-size: 0.9rem;
+    }
+
+    .about-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-section p {
+        font-size: 0.9rem;
+    }
+
+    .subhero h2 {
+        font-size: 1.6rem;
+    }
+
+    .subhero p {
+        font-size: 0.9rem;
+    }
+}

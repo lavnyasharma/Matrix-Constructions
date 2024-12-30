@@ -1,0 +1,83 @@
+/* Container for Cards */
+.big-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Ensures two cards per row on larger screens */
+    gap: 30px; /* Adjust the spacing between cards */
+    padding: 40px; /* Extra padding for the overall page */
+  }
+  
+  /* Responsive Design for Smaller Viewports */
+  @media (max-width: 768px) {
+    .big-cards-container {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+      padding: 20px; /* Reduced padding for smaller devices */
+    }
+  }
+  
+  /* Individual Card */
+  .big-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .big-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;
+    height: 100%; /* Slightly larger image for better visual impact */
+    overflow: hidden;
+  }
+  
+  .big-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .big-card:hover .big-card-image {
+    transform: scale(1.1);
+  }
+  
+  /* Card Content */
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    transform: translateY(100%);
+  }
+  
+  .big-card:hover .card-content {
+    transform: translateY(0);
+  }
+  
+  /* Title and Text */
+  .big-card-title {
+    font-size: 20px; /* Larger font size for the title */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .big-card-text {
+    font-size: 14px;
+    color: #ddd;
+    margin: 0;
+  }
+  
