@@ -96,7 +96,7 @@ function Footer() {
       {/* footer nav */}
       <nav className='footer-nav'>
         <div className='container container-lg'>
-          <p>&copy;copyright 2012 - 2022 | avada theme by <a href='https://avada.com/about-us/' className='text-link'>themefusion</a> | all rights reserved | powered by <a href='https://wordpress.org/' className='text-link'>wordpress</a></p>
+          <p>&copy;copyright 2023 - 2024  | Designed By Concric </p>
 
           <div className='social-media'>
             {data.map(item => {
