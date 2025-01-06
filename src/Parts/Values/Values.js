@@ -9,28 +9,28 @@ const data = [
     id: 1,
     icon: 'icon-home',
     title: 'great services',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+    content: ' '
   },
     
   {
     id: 2,
     icon: 'icon-setting',
     title: 'highest standards',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+    content: ' '
   },
     
   {
     id: 3,
     icon: 'icon-users',
     title: 'professional team',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+    content: ' '
   },
   
   {
     id: 4,
     icon: 'icon-bulb',
     title: 'creative solutions',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+    content: ' '
   },
 ];
 
@@ -40,7 +40,7 @@ function Values() {
       <div className='container'>
         <HedSection
           title='our core values'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
+          content=''
         />
 
         <div className='parent-items'>

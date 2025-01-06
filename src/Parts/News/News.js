@@ -40,7 +40,7 @@ const data = [
     link: '/article03',
     title: 'future proofing a modern home',
     date: 'december 7th, 2015',
-    content: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed.',
+    content: '',
     categories: ['commercial']
   }
 ];
@@ -49,7 +49,7 @@ function News() {
   return (
     <div className='news'>
       <div className='container'>
-        <HedSection title='Latest News' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'/>
+        <HedSection title='Latest News' content=''/>
 
         <div className='parent-items'>
           {data.map(item => {

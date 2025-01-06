@@ -56,7 +56,7 @@ function OurTeam() {
       <div className='container'>
         <HedSection
           title='meet our team'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.'
+          content=''
         />
 
         <div className='parent-items'>

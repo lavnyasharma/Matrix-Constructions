@@ -65,7 +65,7 @@ function Construction() {
       <div className='container'>
         <HedSection
           title='specialists in modern construction'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.'
+          content=''
         />
 
         <div className='carousel-parent'>

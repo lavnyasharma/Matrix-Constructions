@@ -11,7 +11,7 @@ function Inspiring() {
       <div className='container'>
         <HedSection
           title='building inspiring spaces'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.'
+          content=''
         />
 
         <img src={Materials} alt='Construction Materials' className='inspiring-img'/>

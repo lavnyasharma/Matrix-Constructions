@@ -10,7 +10,7 @@ function CallToActionForm() {
         <section className='parent-form'>
           <h2 className='title-md'>get a quote today</h2>
           
-          <p>at vera eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
+       
 
           <Form/>
         </section>
