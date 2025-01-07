@@ -8,7 +8,7 @@ function CallToAction() {
       <div className='container'>
         <section>
           <h2 className='title-lg subline'>building inspiring spaces</h2>
-          <p className='content'>vivamus sed consectetur tellus dolor sit amet, consectetur adipiscing lorem elit sadip ipsum ets ficilis uns.</p>
+          <p className='content'> </p>
         </section>
 
         <div>

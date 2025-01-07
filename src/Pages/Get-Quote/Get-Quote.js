@@ -15,10 +15,10 @@ import './Get-Quote.css';
 const data = [
   {
     id: 1,
-    title: 'london office',
+    
     address: ['146 Rossack Dr, Waurponds, Geelong VIC'], telephone: '+61 487-968-335',
     email: 'info@matrixconstructions.au',
-    date: 'Mon - Sat . 9.00 - 18.00',
+   
   },
 
   
@@ -62,10 +62,7 @@ function GetQuote() {
                     <a href='mailto:mailto:info@your-domain.com' className='text-link'>{email}</a>
                   </li>
 
-                  <li className='list-item'>
-                    <i className='icon-clock list-icon'></i>
-                    <p>{date}</p>
-                  </li>
+                 
                 </ul>
               </section>
             );
@@ -77,7 +74,7 @@ function GetQuote() {
           <div className='container'>
             <HedSection
               title='talk to us - we’re here to help'
-              content='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper arcu arcu, non molestie elit euismod maximus. Pellentesque sed est tempus, ullamcorper lorem eu, dictum justo.'
+              content=' '
             />
 
             <Form/>

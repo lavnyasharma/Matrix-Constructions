@@ -79,7 +79,7 @@ function Footer() {
 
             <li className='list-item'>
               <i className='list-icon icon-clock'></i>
-              <p>monday - friday: 9:00 AM - 6:00 PM</p>
+              <p>monday - friday: 8:00 AM - 5:00 PM</p>
             </li>
 
          
